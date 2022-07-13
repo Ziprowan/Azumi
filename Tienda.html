@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azumi Store</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="Tienda-style.css">
+ 
+  <!-- custom css swiper´s file link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+  <!-- header section starts  -->
+
+  <header class="header">
+
+    <a href="/Home.html" class="logo"> <i class="fa fa-podcast"></i> Azumi Store </a>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#products">Productos</a>
+      <a href="#featured">Destacados</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="/login.html" class="fas fa-user"></a>
+    </div>
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- home section starts  -->
+
+  <section class="home" id="home">
+
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide" style="background:url(/img/Banner\ 1.jpg) no-repeat">
+          <div class="content">
+            <span>Hasta un 50% de Descuento</span>
+            <h3>Categoria 1</h3>
+            <a href="#" class="btn">Compra Ahora</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide" style="background:url(/img/Banner\ 2.jpg) no-repeat">
+          <div class="content">
+            <span>Hasta un 50% de Descuento</span>
+            <h3>Categoria 2</h3>
+            <a href="#" class="btn">Compra Ahora</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- banner section starts  -->
+
+  <section class="banner-container">
+
+    <div class="banner">
+      <img src="/img/Descuento 1.jpg" alt="">
+      <div class="content">
+        <span>Oferta Especial</span>
+        <h3>Hasta un 50% de Descuento</h3>
+        <a href="#" class="btn">Compra Ahora</a>
+      </div>
+    </div>
+
+    <div class="banner">
+      <img src="/img/Descuento 2.jpg" alt="">
+      <div class="content">
+        <span>Oferta Especial</span>
+        <h3>Hasta un 50% de Descuento</h3>
+        <a href="#" class="btn">Compra Ahora</a>
+      </div>
+    </div>
+      
+
+
+  </section>
+
+  <!-- banner section ends -->
+
+  <!-- productos section starts  -->
+
+  <section class="products" id="products">
+
+    <h1 class="heading"> Productos</h1>
+
+    <div class="filter-buttons">
+        <div class="buttons active" data-filter="todo">Todo</div>
+        <div class="buttons" data-filter="nuevo">Nuevos</div>
+        <div class="buttons" data-filter="destacados">Destacados</div>
+        <div class="buttons" data-filter="especial">Ofertas Especiales</div>
+        <div class="buttons" data-filter="top-vendios">Mas Vendidos</div>
+    </div>
+
+    <div class="box-container">
+
+      <div class="box" data-item="...">
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-eye"></a>
+        </div>
+
+        <div class="image">
+          <img src="/img/lego.png" alt="">
+        </div>
+
+        <div class="content">
+          <h3>AUTO DE CARRERAS MCLAREN FORMULA 1™</h3>
+          <div class="price">
+            <div class="amount">1.399.900</div>
+            <div class="cut">1.259.910</div>
+            <div class="offer">10%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- productos section ends -->
+
+  <!-- Destacados section starts  -->
+
+  <section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Productos</span> Destacados </h1>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box" data-item="...">
+            <div class="image">
+              <img src="/img/lego.png" alt="">
+            </div>
+    
+            <div class="content">
+              <h3>AUTO DE CARRERAS MCLAREN FORMULA 1™</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" data-item="...">
+            <div class="image">
+              <img src="/img/lego2.png" alt="">
+            </div>
+    
+            <div class="content">
+              <h3>BMW M 1000 RR</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" data-item="...">
+            <div class="image">
+              <img src="/img/lego3.png" alt="">
+            </div>
+    
+            <div class="content">
+              <h3>LAMBORGHINI SIAN</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="box" data-item="...">
+            <div class="image">
+              <img src="/img/lego4.png" alt="">
+            </div>
+    
+            <div class="content">
+              <h3>CARRO GT PRELIMINAR</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" data-item="...">
+            <div class="image">
+              <img src="/img/lego5.png" alt="">
+            </div>
+    
+            <div class="content">
+              <h3>GRÚA SOBRE ORUGAS COMPACTA</h3>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+
+  <!-- Destacados section ends -->
+
+  <!-- contact section starts  -->
+
+  <section class="contact" id="contact">
+    <h1 class="heading"> <span>Contacta</span>nos</h1>
+
+    <div class="icons-container">
+
+      <div class="icons">
+        <i class="fas fa-map-marker-alt"></i>
+          <h3>Direccion</h3>
+          <p>xxxxxxxxxxxxxxxxxx</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>email</h3>
+        <p>xxxxxxxxxxx@gmail.com</p>
+        <p>xxxxxxxxxxx@gmail.com</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-phone"></i>
+        <h3>Telefono</h3>
+        <p>+57</p>
+        <p>+57</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <form action="">
+        <h3>No seas Timido, si tienes dudas contactanos.</h3>
+
+        <div class="inputBox">
+          <input type="text" placeholder="Tu Nombre">
+          <input type="email" placeholder="Tu Email">
+        </div>
+
+        <div class="inputBox">
+          <input type="number" placeholder="Tu Numero">
+        </div>
+
+        <textarea placeholder="Tu Mensaje" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar Mensaje" class="btn">
+          
+      </form>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7863.95123162657!2d-75.64544587356512!3d9.768130445355801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e58f9c3190be907%3A0x87427a64ac9c80bc!2sRinc%C3%B3n%20del%20Mar%2C%20San%20Onofre%2C%20Sucre!5e0!3m2!1ses!2sco!4v1657234573264!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div>
+
+  </section>
+
+  <!-- contact section ends -->
+
+  <!-- footer section starts  -->
+
+  <section class="footer">
+
+    <div class="box-container">
+      <div class="box">
+        <h3>Acerca de Nosotros</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt!</p>
+      </div>
+
+      <div class="box">
+        <h3>Enlaces Rapidos</h3>
+        <a href="#home"> <i class="fas fa-arrow-right"></i> Home </a>
+        <a href="#products"> <i class="fas fa-arrow-right"></i> Productos </a>
+        <a href="#featured"> <i class="fas fa-arrow-right"></i> Destacados </a>
+        <a href="#contact"> <i class="fas fa-arrow-right"></i> Contacto </a>
+      </div>
+    </div>
+
+    <div class="share">
+      <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank"></a>
+      <a href="https://twitter.com/" class="fab fa-twitter" target="_blank"></a>
+      <a href="https://co.pinterest.com/" class="fab fa-pinterest" target="_blank"></a>
+      <a href="https://co.linkedin.com/" class="fab fa-linkedin" target="_blank"></a>
+      <a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a>
+    </div>
+
+    <div class="credit">Copyright © 2022 <span>Azumi.io </span> | All Rights Reserved.</div>    
+
+  </section>
+
+  <!-- footer section ends -->
+
+  <!-- Swiper js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="/Tienda.js"></script>
+
+</body>
+</html>
