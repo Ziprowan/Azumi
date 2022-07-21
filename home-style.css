@@ -48,7 +48,6 @@ header .row .col-md-5 img {
   margin-top: 95px;
 }
 header {
-  background: #ff512f;
   background: var(--bggradient);
 }
 header .container .col-md-7 h1 {
