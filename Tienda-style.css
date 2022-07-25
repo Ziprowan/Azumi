@@ -294,9 +294,6 @@ section {
   text-align: center;
   font-size: 18px;
   background: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
